@@ -50,7 +50,7 @@
     <workgroup>Internet Engineering Task Force</workgroup>
     <abstract>
       <t>This document sets out a series of recommendations and proposals to the IETF Community from
-        the IETF Administration LLC following a review of the IETF meeting venue requirements</t>
+        the IETF Administration LLC following a review of the IETF meeting venue requirements.</t>
     </abstract>
   </front>
 
@@ -525,7 +525,7 @@
 
     <section anchor="Contributors" numbered="false">
       <name>Contributors</name>
-      <t>Thanks to all of the contributors: Laura Nugent Stephanie McCammon, Alexa Morris, Greg
+      <t>Thanks to all of the contributors: Laura Nugent, Stephanie McCammon, Alexa Morris, Greg
         Wood, Lars Eggert and Jason Livingood</t>
     </section>
 
