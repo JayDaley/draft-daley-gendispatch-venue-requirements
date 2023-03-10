@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="rfc7991bis.rnc"?>
+
+<!DOCTYPE rfc [
+  <!ENTITY nbsp    "&#160;">
+  <!ENTITY zwsp   "&#8203;">
+  <!ENTITY nbhy   "&#8209;">
+  <!ENTITY wj     "&#8288;">
+]>
+
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="info"
+  docName="draft-daley-gendispatch-venue-requirements-00" ipr="trust200902" obsoletes=""
+  updates="8718" submissionType="IETF" xml:lang="en" version="3">
+
+  <front>
+    <title>Review of IETF Meeting Venue Requirements</title>
+    <seriesInfo name="Internet-Draft" value="draft-daley-gendispatch-venue-requirements-00"/>
+
+    <author fullname="Jay Daley" initials="J." surname="Daley" role="editor">
+      <organization abbrev="IETF Administration LLC">IETF Administration LLC</organization>
+      <address>
+        <postal>
+          <street>1000 N. West Street, Suite 1200</street>
+          <city>Wilimington</city>
+          <region>DE</region>
+          <code>19801</code>
+          <country>US</country>
+        </postal>
+        <email>jay@staff.ietf.org</email>
+      </address>
+    </author>
+
+    <author fullname="Sean Turner" initials="S." surname="Turner">
+      <organization abbrev="IETF Administration LLC">IETF Administration LLC</organization>
+      <address>
+        <postal>
+          <street>1000 N. West Street, Suite 1200</street>
+          <city>Wilimington</city>
+          <region>DE</region>
+          <code>19801</code>
+          <country>US</country>
+        </postal>
+        <email>sean@sn3rd.com</email>
+      </address>
+    </author>
+
+    <date month="March" year="2023"/>
+
+    <area>General</area>
+    <workgroup>Internet Engineering Task Force</workgroup>
+    <abstract>
+      <t>This document sets out a series of recommendations and proposals to the IETF Community from
+        the IETF Administration LLC following a review of the IETF meeting venue requirements</t>
+    </abstract>
+  </front>
+
+  <middle>
+
+    <section>
+      <name>Introduction</name>
+      <t>IETF meeting venues are researched, negotiated, booked and managed in accordance with RFC
+        8718 “IETF Plenary Meeting Venue Selection Process” <xref target="RFC8718"/>. While this RFC
+        was published in 2020, the substantive work was completed in 2018 and since then there have
+        been a number of developments that have affected the efficacy of our current model for IETF
+        meetings.</t>
+      <t>The IETF Administration LLC has reviewed the venue selection in light of these
+        developments, primarily informed by its close engagement with the Secretariat staff who work
+        on venue selection, and has identified a number of problems and possible solutions, some of
+        which it recommends to the community and some of which it proposes.</t>
+      <t>Taken together, the changes strip back much of the detail around venue requirements and
+        allow for a greater variety of venue models and thereby support a greater range of possible
+        venues.</t>
+    </section>
+
+    <section>
+      <name>Summary of Recommendations and Proposals</name>
+      <ol>
+        <li>We recommend replacing the “close proximity” requirement with a “time to walk”
+          requirement somewhere between 5-15 minutes.</li>
+        <li>We recommend replacing the “one-third” requirement for rooms in the IETF Hotels with a
+          “sufficient to meet projected demand” requirement.</li>
+        <li>We propose to no longer provide a Terminal Room and direct people to the Lounge
+          instead.</li>
+        <li>We recommend that the community reopen the discussion on Internet filtering at venues
+          and provide us with better guidance by considering four key questions.</li>
+      </ol>
+      <t>We finish with a discussion on the merits of returning to the same venues that are known to
+        work well vs maximizing the number of different venues, and therefore countries, that we
+        visit.</t>
+    </section>
+
+    <section>
+      <name>Issues, Analysis, Recommendations and Proposals</name>
+      <section>
+        <name>The “IETF Hotels” / “One Roof” Model</name>
+        <section>
+          <name>Current Policy</name>
+          <t><xref target="RFC8718"/> defines “IETF Hotels” as:</t>
+          <blockquote>One or more hotels, in close proximity to the Facility, where the IETF guest
+            room block allocations are negotiated and where network services managed by the IASA
+            (e.g., the "IETF" SSID) are in use.</blockquote>
+          <t>These are distinct from the “overflow hotels”, which are arranged but not reserved, can
+            be some distance from the meeting space, and do not receive the IETF network. </t>
+          <t><xref target="RFC8718"/> provides the following mandatory criteria:</t>
+          <blockquote><ul>
+              <li>It MUST be possible to provision Internet Access to the Facility and IETF
+                Hotels</li>
+            </ul></blockquote>
+          <t>It also provides the following important criteria (only listing those directly
+            relevant):</t>
+          <blockquote><ul>
+              <li>The IETF Hotels directly provide, or else permit and facilitate, the delivery of a
+                high performance, robust, unfiltered, and unmodified Internet service for the public
+                areas and guest rooms; this service is to be included in the cost of the room.</li>
+              <li>The IETF Hotels are within close proximity to each other and the Facility.</li>
+              <li>The guest rooms at the IETF Hotels are sufficient in number to house one-third or
+                more of projected meeting attendees.</li>
+            </ul></blockquote>
+          <t>Additionally, <xref target="RFC8718"/> contains this preference:</t>
+          <blockquote><ul>
+              <li>We have something of a preference for an IETF meeting to be under "One Roof"; that
+                is, qualified meeting space and guest rooms are available in the same facility.</li>
+            </ul></blockquote>
+        </section>
+        <section>
+          <name>Current Practice</name>
+          <t>What happens in practice is that we book a single IETF Hotel (aka a main hotel), with
+            enough rooms reserved for one third of projected attendees. Most of the time this is
+            under the same roof as the meeting space because hotels often tie their meeting space to
+            the size of the guest bedroom block. In other words, in order to be able to book
+            sufficient meeting space in a “one roof” venue, we need to reserve a large room
+            block.</t>
+          <t>The IETF network is made available in the IETF Hotel, covering the guest bedrooms and
+            the main common areas. Even when we are not under one roof, we nearly always aim for a
+            single hotel to fulfill the requirements of the IETF Hotels. The IETF has only installed
+            the IETF network into more than one hotel on a very small number of occasions.</t>
+          <t>There are a number of advantages to having a single IETF Hotel:</t>
+          <ol>
+            <li>It simplifies the negotiation and installation of the hotel network. Very few hotels
+              have any experience of a third party installing a network and so the negotiation is
+              often as much work as the installation.</li>
+            <li>One large room block is more likely to result in a lower room price and hotel
+              commissions paid to the IETF.</li>
+            <li>For the core group of IETF participants (and staff) that normally stay in the IETF
+              hotel or close by, there is a strong sense of community.</li>
+          </ol>
+          <t>When this hotel is under the same roof as the facility then there are further
+            advantages:</t>
+          <ol start="4">
+            <li>It is usually easier and more flexible to work with a single point of contact
+              instead of several (convention centers with separate contacts for AV, F&amp;B, and
+              space).</li>
+            <li>It can be much cheaper than working with a separate convention center.</li>
+            <li>Group discussions can more naturally move from the facility to the hotel. </li>
+          </ol>
+        </section>
+        <section>
+          <name>Developments</name>
+          <t>As noted earlier, there have been a number of developments that have affected the
+            efficacy of our current model.</t>
+          <t>The most recent of these developments was the COVID driven cancellations and lockdowns
+            that badly affected the hospitality industry overall. Hotels and convention centers are
+            now much more cautious about the terms of their bookings and much less willing to invest
+            in order to secure a booking, as they aim to protect themselves from any similar sudden
+            loss of income. For example, many hotels are now requiring payment in full in advance
+            for guest room blocks from conference organizers. </t>
+          <t>The current high global inflation and uncertain economic outlook adds to the risk
+            averse stance of hotel and convention centers. </t>
+          <t>Then there is the impact of the now ubiquitous offering of short-term apartment rental
+            sites. These sites are significant competitors to hotels for traveler accommodation both
+            on price and availability.</t>
+          <t>Taking a more long-term perspective, the nature of Internet access for travelers has
+            changed significantly over the years and the trajectory is much the same. In most of the
+            countries that we visit, local SIM cards with a sufficient data limit are readily
+            available at a reasonable price. The VPN industry has exploded with many commercial
+            offerings and many corporations providing a VPN for staff. In addition, IETF-developed
+            protocols like DoH and MASQUE have made protecting DNS and web traffic quite easy.</t>
+          <section>
+            <name>Hotel Internet Access</name>
+            <t>When the NOC adds the IETF network to a hotel, the general approach is to bring in
+              new external connectivity via one of a number of mechanisms and then work with the
+              existing hotel infrastructure to configure a new SSID on the hotel APs that avoids as
+              much of the hotel captive portal equipment as possible.</t>
+            <t>Hotel WiFi has improved significantly, both in bandwidth and quality, and there
+              appear to be fewer hotels doing silly things such as trying to intercept SSL
+              connections. However, the experience of the NOC in working with hotel networks, a
+              broader experience than just working with the IETF hotels, is that there remain a
+              large number of problems with hotel WiFi. For example, the following issues have been
+              encountered by the NOC:</t>
+            <ul>
+              <li>Access points installed inside elevators to provide a better experience in the
+                elevators</li>
+              <li>Access points configured to rotate their channel at a frequency of less than a
+                minute.</li>
+              <li>Captive portals that only allow for a small number of IPv6 connections because
+                anything more must be a mistake.</li>
+              <li>Networks with plenty of external bandwidth but such a low-powered captive portal
+                setup that effective bandwidth per user is below usable.</li>
+            </ul>
+            <t>In conclusion, while hotel WiFi has improved significantly, it remains entirely
+              unpredictable as to how it will hold up when used by a large number of engineers with
+              unusual traffic profiles. </t>
+          </section>
+        </section>
+        <section>
+          <name>Practical Concerns</name>
+          <t>This model limits our choice of venue as it tends to exclude “one roof” venues that
+            have sufficient meeting space but insufficient rooms, and to exclude those venues where
+            there is a convention center that is suitable for us, with a choice of nearby hotels
+            that in total have sufficient rooms to accommodate us, but none of the hotels
+            individually is big enough to meet our requirements for a single IETF Hotel. In both
+            cases, it is not the policy that excludes them but the practicalities of implementing
+            the policy. </t>
+          <t>The large room block strategy is losing its appeal due a number of factors. </t>
+          <t>As noted above, hotels are increasingly wary of reserving large blocks of rooms as they
+            used to do, for a number of reasons. </t>
+          <t>Where we can get a large room block, we are finding that hotels are less willing to
+            provide us good discounts, which means the room pricing is not always on a par with
+            other nearby hotels, with a smaller number of available rooms. </t>
+          <t>We are reserving more hotel rooms than are being used and the anecdotal evidence is
+            that this is down to more people making individual arrangements using short-term rental
+            sites. This is exposing us to unnecessary risk as we are required to financially
+            guarantee certain levels of occupancy, and is leading to wasted effort. It also means
+            that we are not receiving the anticipated commission income from hotels, which would
+            anyway be lower than pre-COVID due to the financial caution of hotels. </t>
+          <t>Finally, despite the effort that goes into providing the network in the IETF Hotel, it
+            should be noted that we understand very little about how it is used. </t>
+        </section>
+        <section>
+          <name>Recommendations and Proposals</name>
+          <t>We make the following recommendations: </t>
+          <ol>
+            <li>To replace the “close proximity” requirement for the IETF Hotels with a “time to
+              walk” requirement, that aims to limit the time it takes to walk from the hotel(s) to
+              the meeting space and to each other. We make no proposal as to the length of time
+              other than to note it should not be any less than five minutes nor more than fifteen
+              minutes (see <eref target="https://en.wikipedia.org/wiki/15-minute_city"/> for context
+              and <eref target="https://app.traveltime.com"/> to generate a walking time polygon for
+              your city of choice) and that <xref target="RFC8718"
+                sectionFormat="of" section="3.2.2"/> already uses a walkability test of 5-10 minutes
+              for a similar purpose.</li>
+            <li>To replace the requirement for the total room block in the IETF Hotels from
+              “one-third of the projected attendees” to a more flexible “sufficient rooms to meet
+              the expected demand”. Short-term apartment rental companies only operate in some
+              countries, so the number of rooms booked will need to vary depending on our assessment
+              of the availability of alternative forms of accommodation. Note, this excludes the
+              number of rooms reserved in the overflow hotels, which are not guaranteed and which do
+              not benefit from the IETF network.</li>
+          </ol>
+          <t>We propose:</t>
+          <ol start="3">
+            <li>For the NOC to monitor the usage of the IETF network in the IETF Hotels in order to
+              understand it better. This would provide the data for a review of the hotel network
+              and what, if any, changes are needed. We leave the details of what monitoring takes
+              place to the NOC and community to decide.</li>
+          </ol>
+        </section>
+      </section>
+      <section>
+        <name>The Lounge, Terminal Room and Ad-hoc Space</name>
+        <section>
+          <name>Current Policy</name>
+          <t><xref target="RFC8718"/> includes the following requirements as important
+            criteria:</t>
+          <ul>
+            <li>There are sufficient places (e.g., a mix of hallways, bars, meeting rooms, and
+              restaurants) for people to hold ad hoc conversations and group discussions in the
+              combination of spaces offered by the facilities, hotels, and bars/restaurants in the
+              surrounding area, within walking distance (5-10 minutes). </li>
+            <li>At least one IETF Hotel or the Facility has a space for use as a lounge, conducive
+              to planned and ad hoc meetings and chatting, as well as a space for working online.
+              There are tables with seating, convenient for small meetings with laptops. These can
+              be at an open bar or casual restaurant. Preferably the lounge area is centrally
+              located, permitting easy access to participants. </li>
+          </ul>
+          <t>The only requirements for a Terminal Room are given in the The Tao of the IETF (<eref
+              target="https://www.ietf.org/about/participate/tao/"/>), which describes it as a
+            dedicated room with extended opening hours beyond the normal hours of IETF meetings,
+            Ethernet connectivity, a printer and a staffed helpdesk. </t>
+        </section>
+        <section>
+          <name>Current Practice</name>
+          <t>The Lounge is a feature of every IETF meeting. It is regularly but lightly used, far
+            below capacity.</t>
+          <t>The Terminal Room is a feature of every IETF meeting. It is regularly but lightly used,
+            far below capacity. It meets most of the requirements from the Tao (<eref
+              target="https://www.ietf.org/about/participate/tao/"/>), but the decision was taken
+            some years ago to move the helpdesk to the reception area.</t>
+        </section>
+        <section>
+          <name>Developments</name>
+          <t> Almost everybody at an IETF meeting now has a laptop, tablet, or smartphone (if not
+            all of these) and WiFi in those devices is ubiquitous. In the other places where people
+            regularly work outside of the office (airport lounges, cafes, hotels, etc) cabled
+            ethernet connections are a rarity.</t>
+          <t>The need to print such things as travel documents, event tickets, and the like, has
+            dropped to virtually zero as all of these things have been replaced with apps on mobile
+            devices.</t>
+        </section>
+        <section>
+          <name>Practical Concerns</name>
+          <t>Those people that use the Terminal Room rarely use any of the facilities provided; they
+            are largely after a quiet place to work between working group meetings they plan to
+            attend. </t>
+          <t>The demand for in-person technical support is low and almost all of the visits are for
+            things that could be supported remotely via a support ticket. The IETF NOC team already
+            responds to support tickets throughout the meeting and we specifically monitor the
+            perceptions of our support response in our post-meeting surveys.</t>
+          <t>In practice, negotiating the requirements of the Terminal Room with the venues takes
+            disproportionately long and its usage is too low to justify this work. </t>
+          <t>In our last two post-meeting surveys, comments have been made about the lack of ad-hoc
+            space in and around the facility, and the positioning of the Terminal Room and Code
+            Lounge:</t>
+          <ul>
+            <li>“the rather limited number of chairs and lounge tables in front of the meeting
+              rooms”</li>
+            <li>“less space for social interaction and the terminal room/code lounge was far away
+              from the meetings”</li>
+            <li>“Terminal room: this should have been more readily accessible and not located on
+              floor -3 in a room with no window”</li>
+            <li>“Hard to find breakout rooms and have the side conversations that are so critical to
+              IETF sessions”</li>
+          </ul>
+          <t>Increasing ad-hoc meeting space presents us with some challenges:</t>
+          <ol>
+            <li>Most venues include “pre-function” space but we tend to use that for our
+              registration desk and related desks (e.g. IANA, RPC).</li>
+            <li>There are many venues that could not support such space and if it became a strong
+              requirement that would significantly reduce our choice.</li>
+            <li>Of those venues that do have such space, our experience is that they often do not
+              have the furniture and so we would need to rent it. This is not an insurmountable
+              problem but does mean increasing our costs at a time we want to be reducing them. </li>
+            <li>Fire restrictions often prevent us from using space that might appear to the
+              observer to be otherwise free for us to use in this way.</li>
+          </ol>
+          <t>Given the under-utilization of the Lounge it might make sense to reconfigure the
+            meeting space to make the Lounge easier to access so that it can more easily be used as
+            ad-hoc meeting space, but where we have tried that it has meant having the meeting rooms
+            further apart and participants have complained about that.</t>
+        </section>
+        <section>
+          <name>Proposals</name>
+          <t>As the Terminal Room is not a requirement from <xref target="RFC8718"/> , it
+            is within scope for the LLC to propose the following changes:</t>
+          <ol>
+            <li>To no longer have a Terminal Room. Anyone that wishes to use the Terminal Room will
+              be directed to the Code Lounge instead.</li>
+            <li>Drop the in-person helpdesk. Technical support will still be available via the
+              support email and we will introduce a new Zulip channel for live support. On those
+              rare occasions when in-person support is required, then an engineer will appear.</li>
+            <li>Drop the requirement for an IETF provided printer. If people need to print then they
+              will need to identify suitable facilities themselves. The registration desk may be
+              able to provide pointers, but we are no longer guaranteeing that print services will
+              be available.</li>
+          </ol>
+          <t>Relatedly, the meeting planning team will be taking the following actions:</t>
+          <ol>
+            <li>Where the opportunity arises for us to provide greater ad-hoc space through rental
+              of furniture, then we will consider this.</li>
+            <li>We will experiment with the location of the Lounge and see what feedback we get from
+              that.</li>
+            <li>We will improve the messaging and signage around the lounge, encouraging people to
+              use it as ad-hoc meeting space.</li>
+          </ol>
+
+        </section>
+      </section>
+      <section>
+        <name>Internet Filtering</name>
+        <section>
+          <name>Current Policy</name>
+          <t><xref target="RFC8718"/> has a lot to say about filtering:</t>
+          <blockquote> As an organization, we write specifications for the Internet, and we use it
+            heavily. Meeting attendees need unfiltered access to the general Internet and their
+            corporate networks. "Unfiltered access", in this case, means that all forms of
+            communication are allowed. This includes, but is not limited to, access to corporate
+            networks via encrypted VPNs from the meeting Facility and Hotels, including Overflow
+            Hotels. We also need open network access available at high enough data rates, at the
+            meeting Facility, to support our work, which includes support of remote participation.
+            Beyond this, we are the first users of our own technology. Any filtering may cause a
+            problem with that technology development. In some cases, local laws may require some
+            filtering. We seek to avoid such locales without reducing the pool of cities to an
+            unacceptable level by stating a number of criteria below, one mandatory and others
+            important, to allow for the case where local laws may require filtering in some
+            circumstances.</blockquote>
+          <t>And</t>
+          <blockquote>It MUST be possible to provision Internet Access to the Facility and IETF
+            Hotels [...] Provisions include, but are not limited to, native and unmodified IPv4 and
+            IPv6 connectivity, and global reachability; there may be no additional limitation that
+            would materially impact their Internet use. </blockquote>
+        </section>
+        <section>
+          <name>Developments</name>
+          <t>The legal frameworks around filtering have grown more sophisticated and filtering
+            technology has similarly developed.</t>
+          <t> Additionally, as noted above, VPN technology and other privacy-enhancing technologies
+            have also developed rapidly.</t>
+          <t>Historically, the IETF has met in countries with significant Internet filtering and
+            there is an expectation from the local communities in those countries that we revisit
+            them.</t>
+        </section>
+        <section>
+          <name>Practical Concerns</name>
+          <t>In practice the requirements have proven difficult to interpret because they leave too
+            many questions unanswered:</t>
+          <ol>
+            <li>Is any filtering acceptable? For example, some countries operate filters that are
+              minimally invasive by redirecting and filtering traffic to a small number of high-risk
+              sites and only for one specific illegal activity <eref
+                target="https://en.wikipedia.org/wiki/Internet_censorship_in_New_Zealand"/> and it
+              is not clear if we could meet in a country with such restrictions.</li>
+            <li>If we can be reasonably sure that people can legally, technically and practically
+              circumvent filtering through the use of VPNs (or VPNs + encrypted DNS, or MASQUE, or
+              other) then does it matter what else is going on, on the local network?</li>
+            <li>We have historically met in venues where unfiltered access was provided to the
+              meeting space and IETF Hotels but not to overflow hotels. Is that acceptable going
+              forward?</li>
+            <li>There is much text in <xref target="RFC8718"/> about the importance of
+              people being able to work in bars, cafes etc yet this is not considered when filtering
+              is discussed. Should it be?</li>
+          </ol>
+        </section>
+        <section>
+          <name>Recommendations</name>
+          <t>We recommend the community reopen the discussion on filtering and provide us better
+            guidance on the key questions listed above.</t>
+          <t>It may be that these questions need to be answered on a case-by-case basis when we ask
+            for community input on specific venues, but with better guidance we could provide better
+            data for the community to consider and minimize wasted effort on venue research.</t>
+        </section>
+      </section>
+      <section>
+        <name>New Venues vs Known Good Venues</name>
+        <t>The factors that make a venue a good venue are numerous:</t>
+        <ul>
+          <li>Those in common to all participants:</li>
+          <li><ul>
+              <li>Size and layout of the meeting space</li>
+              <li>Facilities in the area around the meeting space</li>
+              <li>The weather</li>
+            </ul></li>
+          <li>Those with a more geographically varied impact on participants:</li>
+          <li><ul>
+              <li>Overall cost of travel and accommodation</li>
+              <li>Visa availability and requirements</li>
+            </ul></li>
+          <li>Those primarily impacting staff and volunteers:</li>
+          <li><ul>
+              <li>Service provision from the meeting space</li>
+              <li>Technical facilities and service provision</li>
+              <li>Local sponsors / hosts</li>
+              <li>Desirability for meeting hosts</li>
+            </ul></li>
+        </ul>
+        <t>Revisiting known good venues has a number of advantages and disadvantages:</t>
+        <ul>
+          <li>Advantages:</li>
+          <li><ul>
+              <li>We know the space and the services work for us</li>
+              <li>Participants gain familiarity with the space and can use it more efficiently</li>
+              <li>The staff costs associated with researching, booking and managing the meeting are
+                lower than negotiating from scratch</li>
+            </ul></li>
+          <li>Disadvantages:</li>
+          <li><ul>
+              <li>The venue becomes much less competitive on price (as has happened with
+                Prague)</li>
+              <li>It restricts the number of local communities that we interact with</li>
+              <li>Is it less appealing to Global Hosts to sponsor a meeting in the same venue.</li>
+            </ul></li>
+        </ul>
+        <t>Visiting new venues also has a number of advantages and disadvantages, related to those
+          above. However, these are not all equally important. In particular, there are two key
+          issues - the availability and requirements for visas, which has a direct effect on the
+          breadth of global participation, and the appeal to meeting hosts, which has a fundamental
+          impact on the financial viability of IETF meetings. </t>
+        <t><xref target="RFC8719"/> is silent on the question of these advantages and
+          disadvantages and so the IETF LLC aims to find a balance between the two approaches. The
+          community may wish us to take a different approach, or provide further guidance on how to
+          balance these various factors.</t>
+      </section>
+    </section>
+
+    <section>
+      <name>Next Steps</name>
+      <t>Assuming that some changes are worth moving forward with, there are some options for how to
+        progress those.</t>
+      <t>The first option is a replacement for <xref target="RFC8718"/> with the same level
+        of detail as the existing document. That provides for clarity and certainty around the
+        requirements and while it will inevitably need replacing as those requirements change, it is
+        unlikely that this will be an obstacle to change.</t>
+      <t>The second option is a stripped back replacement for <xref target="RFC8718"/> that
+        sets the key principles for the venue and leaves the details to the IETF LLC to interpret.
+        This has the benefit of avoiding the importance of some meeting features being lost in the
+        detail, as arguably has happened with the importance of ad-hoc meeting areas. However, this
+        might not ensure sufficient community engagement and oversight of the interpretations of the
+        principles.</t>
+
+    </section>
+
+    <section anchor="IANA">
+      <!-- All drafts are required to have an IANA considerations section. See RFC 8126 for a guide.-->
+      <name>IANA Considerations</name>
+      <t>This memo includes no request to IANA.</t>
+    </section>
+
+    <section anchor="Security">
+      <!-- All drafts are required to have a security considerations section. See RFC 3552 for a guide. -->
+      <name>Security Considerations</name>
+      <t>This document should not affect the security of the Internet.</t>
+    </section>
+
+    <!-- NOTE: The Acknowledgements and Contributors sections are at the end of this template -->
+  </middle>
+
+  <back>
+    <references>
+      <name>References</name>
+      <references>
+        <name>Normative References</name>
+        <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.8718.xml"/>
+        <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.8719.xml"/>
+      </references>
+    </references>
+
+    <section anchor="Contributors" numbered="false">
+      <name>Contributors</name>
+      <t>Thanks to all of the contributors: Laura Nugent Stephanie McCammon, Alexa Morris, Greg
+        Wood, Lars Eggert and Jason Livingood</t>
+    </section>
+
+  </back>
+</rfc>
