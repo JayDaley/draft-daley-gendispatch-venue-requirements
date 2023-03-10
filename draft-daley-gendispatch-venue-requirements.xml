@@ -52,6 +52,13 @@
       <t>This document sets out a series of recommendations and proposals to the IETF Community from
         the IETF Administration LLC following a review of the IETF meeting venue requirements.</t>
     </abstract>
+    <note title="Editorial Note">
+      <t>Discussion of this draft takes place on the gendispatch mailing list, which has its home
+        page at <eref target="https://www.ietf.org/mailman/listinfo/gendispatch" brackets="angle"/>. </t>
+      <t>The source code and an issues list for this draft can be found at <eref
+          target="https://github.com/JayDaley/draft-daley-gendispatch-venue-requirements"
+          brackets="angle"/>. </t>
+    </note>
   </front>
 
   <middle>
@@ -236,9 +243,9 @@
               other than to note it should not be any less than five minutes nor more than fifteen
               minutes (see <eref target="https://en.wikipedia.org/wiki/15-minute_city"/> for context
               and <eref target="https://app.traveltime.com"/> to generate a walking time polygon for
-              your city of choice) and that <xref target="RFC8718"
-                sectionFormat="of" section="3.2.2"/> already uses a walkability test of 5-10 minutes
-              for a similar purpose.</li>
+              your city of choice) and that <xref target="RFC8718" sectionFormat="of"
+                section="3.2.2"/> already uses a walkability test of 5-10 minutes for a similar
+              purpose.</li>
             <li>To replace the requirement for the total room block in the IETF Hotels from
               “one-third of the projected attendees” to a more flexible “sufficient rooms to meet
               the expected demand”. Short-term apartment rental companies only operate in some
@@ -260,8 +267,7 @@
         <name>The Lounge, Terminal Room and Ad-hoc Space</name>
         <section>
           <name>Current Policy</name>
-          <t><xref target="RFC8718"/> includes the following requirements as important
-            criteria:</t>
+          <t><xref target="RFC8718"/> includes the following requirements as important criteria:</t>
           <ul>
             <li>There are sufficient places (e.g., a mix of hallways, bars, meeting rooms, and
               restaurants) for people to hold ad hoc conversations and group discussions in the
@@ -340,8 +346,8 @@
         </section>
         <section>
           <name>Proposals</name>
-          <t>As the Terminal Room is not a requirement from <xref target="RFC8718"/> , it
-            is within scope for the LLC to propose the following changes:</t>
+          <t>As the Terminal Room is not a requirement from <xref target="RFC8718"/> , it is within
+            scope for the LLC to propose the following changes:</t>
           <ol>
             <li>To no longer have a Terminal Room. Anyone that wishes to use the Terminal Room will
               be directed to the Code Lounge instead.</li>
@@ -415,9 +421,9 @@
             <li>We have historically met in venues where unfiltered access was provided to the
               meeting space and IETF Hotels but not to overflow hotels. Is that acceptable going
               forward?</li>
-            <li>There is much text in <xref target="RFC8718"/> about the importance of
-              people being able to work in bars, cafes etc yet this is not considered when filtering
-              is discussed. Should it be?</li>
+            <li>There is much text in <xref target="RFC8718"/> about the importance of people being
+              able to work in bars, cafes etc yet this is not considered when filtering is
+              discussed. Should it be?</li>
           </ol>
         </section>
         <section>
@@ -474,10 +480,10 @@
           issues - the availability and requirements for visas, which has a direct effect on the
           breadth of global participation, and the appeal to meeting hosts, which has a fundamental
           impact on the financial viability of IETF meetings. </t>
-        <t><xref target="RFC8719"/> is silent on the question of these advantages and
-          disadvantages and so the IETF LLC aims to find a balance between the two approaches. The
-          community may wish us to take a different approach, or provide further guidance on how to
-          balance these various factors.</t>
+        <t><xref target="RFC8719"/> is silent on the question of these advantages and disadvantages
+          and so the IETF LLC aims to find a balance between the two approaches. The community may
+          wish us to take a different approach, or provide further guidance on how to balance these
+          various factors.</t>
       </section>
     </section>
 
@@ -485,15 +491,15 @@
       <name>Next Steps</name>
       <t>Assuming that some changes are worth moving forward with, there are some options for how to
         progress those.</t>
-      <t>The first option is a replacement for <xref target="RFC8718"/> with the same level
-        of detail as the existing document. That provides for clarity and certainty around the
+      <t>The first option is a replacement for <xref target="RFC8718"/> with the same level of
+        detail as the existing document. That provides for clarity and certainty around the
         requirements and while it will inevitably need replacing as those requirements change, it is
         unlikely that this will be an obstacle to change.</t>
-      <t>The second option is a stripped back replacement for <xref target="RFC8718"/> that
-        sets the key principles for the venue and leaves the details to the IETF LLC to interpret.
-        This has the benefit of avoiding the importance of some meeting features being lost in the
-        detail, as arguably has happened with the importance of ad-hoc meeting areas. However, this
-        might not ensure sufficient community engagement and oversight of the interpretations of the
+      <t>The second option is a stripped back replacement for <xref target="RFC8718"/> that sets the
+        key principles for the venue and leaves the details to the IETF LLC to interpret. This has
+        the benefit of avoiding the importance of some meeting features being lost in the detail, as
+        arguably has happened with the importance of ad-hoc meeting areas. However, this might not
+        ensure sufficient community engagement and oversight of the interpretations of the
         principles.</t>
 
     </section>
