@@ -8,7 +8,7 @@
   <!ENTITY wj     "&#8288;">
 ]>
 
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="info"
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="bcp"
   docName="draft-daley-gendispatch-venue-requirements-01" ipr="trust200902" obsoletes="8719"
   updates="8718" submissionType="IETF" xml:lang="en" version="3">
 
@@ -68,11 +68,12 @@
 
     <section>
       <name>Introduction</name>
-      <t>IETF meeting venues are researched, negotiated, booked and managed in accordance with <xref target="RFC8718"/> “IETF Plenary Meeting Venue Selection Process”  and <xref target="RFC8719"/>
-        "High-Level Guidance for the Meeting Policy of the IETF" . While
-        these RFCs were published in 2020, the substantive work was completed in 2018 and since then
-        there have been a number of developments that have affected the efficacy of our current
-        model for IETF meetings.</t>
+      <t>IETF meeting venues are researched, negotiated, booked and managed in accordance with <xref
+          target="RFC8718"/> “IETF Plenary Meeting Venue Selection Process” and <xref
+          target="RFC8719"/> "High-Level Guidance for the Meeting Policy of the IETF". While these
+        RFCs were published in 2020, the substantive work was completed in 2018 and since then there
+        have been a number of developments that have affected the efficacy of our current model for
+        IETF meetings.</t>
       <t>The IASA has reviewed the venue selection in light of these developments, primarily
         informed by the staff who work on venue selection, and has identified a number of issues to
         be addressed by a combination of updates to those RFCs and clarifications of
@@ -80,17 +81,22 @@
     </section>
 
     <section>
-      <name>Summary of changes to <xref target="RFC8718"/> and RFC 8719</name>
+      <name>Summary of changes to <xref target="RFC8718"/> and <xref target="RFC8719"/>:</name>
       <ol>
-        <li>Replaces <xref target="RFC8719"/> with a new Meeting (Rotation) Policy as set out in this document.</li>
-        <li>Clarifies the interpretation of "close proximity" as used in <xref target="RFC8718"/> and </li>
-        <li>Updates the room block requirement of <xref target="RFC8718"/> from “one-third of
-          the projected attendees” to a more flexible “sufficient rooms to meet the expected
+        <li>Replaces <xref target="RFC8719"/> with a new Meeting (Rotation) Policy as set out in
+          this document.</li>
+        <li>Clarifies the interpretation of "close proximity" as used in <xref target="RFC8718"
+          />.</li>
+        <li>Updates the room block requirement of <xref target="RFC8718"/> from “one-third of the
+          projected attendees” to a more flexible “sufficient rooms to meet the expected
           demand”.</li>
-        <li>Clarifies that the IASA should interpret any reference to Overflow Hotels in <xref target="RFC8718"/> as an
-          entirely optional feature that the IASA can choose to provide at its own discretion.</li>
-        <li>Updates various parts of <xref target="RFC8718"/> that specify ad-hoc space to better match the community requirements as expressed in post-meeting surveys.</li>
-        <li>Clarifies the interpretation of 'unfiltered' with regards to Internet access to cover the current environment.</li>
+        <li>Clarifies that the IASA should interpret any reference to Overflow Hotels in <xref
+            target="RFC8718"/> as an entirely optional feature that the IASA can choose to provide
+          at its own discretion.</li>
+        <li>Updates various parts of <xref target="RFC8718"/> that specify ad-hoc space to better
+          match the community requirements as expressed in post-meeting surveys.</li>
+        <li>Clarifies the interpretation of 'unfiltered' regarding Internet access to cover the
+          current environment.</li>
       </ol>
     </section>
 
@@ -109,7 +115,7 @@
         <blockquote><t>[...] the 1-1-1-* meeting policy is a slightly modified version of the
             aforementioned 1-1-1 meeting policy that allows for additional flexibility in the form
             of an exploratory meeting (denoted with an "*").</t></blockquote>
-        <t><xref target="RFC8719"/> further sets out the process for agreeing an exploratory
+        <t><xref target="RFC8719"/> further sets out the process for agreeing on an exploratory
           meeting, which includes the requirement for a participant to nominate the city, the
           community to discuss it and the IETF Chair to determine if there is consensus for the city
           to be considered suitable.</t>
@@ -122,7 +128,7 @@
           partly because, since 2020, the IASA has established two practices to ensure community
           input into the choice of meeting venues:</t>
         <ol>
-          <li>The IASA consults with the IESG where there is any concern that the likely number or
+          <li>The IASA consults with the IESG when there is any concern that the likely number or
             makeup of onsite participants is not sufficient for a viable IETF meeting at a
             particular venue.</li>
           <li>The IASA publishes a formal assessment of proposed venues (cities) as part of its
@@ -141,9 +147,9 @@
           restrictions:</t>
         <ul>
           <li>No two adjacent meetings in the same region.</li>
-          <li>No more than one meeting per region in a calendar year .</li>
-          <li>No more than one meeting in a non-core region in a calendar year .</li>
-          <li>No more than one meeting per country in any two adjacent calendar years .</li>
+          <li>No more than one meeting per region in a calendar year.</li>
+          <li>No more than one meeting in a non-core region in a calendar year.</li>
+          <li>No more than one meeting per country in any two adjacent calendar years.</li>
         </ul>
       </section>
     </section>
@@ -176,7 +182,7 @@
           <ol>
             <li><t>A "one roof" venue of a hotel with the meeting space in the hotel or directly
                 attached.</t>
-              <t>The advantages to this configuration are:</t>
+              <t>The advantages of this configuration are:</t>
               <ul>
                 <li>With a large enough room block, the meeting space is generally free.</li>
                 <li>For a core group of IETF participants (and staff) that normally stay in the IETF
@@ -197,15 +203,15 @@
                 <li>There are a limited number of hotels (and therefore cities) with large enough
                   meeting space and sufficient rooms to accommodate us.</li>
                 <li>The room rates at conference hotels are often on the high side and it can be
-                  more expensive for IETF paricipants.</li>
+                  more expensive for IETF participants.</li>
               </ul>
             </li>
             <li><t>A meeting space not co-located with a hotel, normally a convention center, but
                 where there are hotels within a short walk.</t>
-              <t>The advantages to this configuration are:</t>
+              <t>The advantages of this configuration are:</t>
               <ul>
                 <li>It makes many more cities available as potential venues.</li>
-                <li>It provides for more options for local hotels.</li>
+                <li>It provides more options for local hotels.</li>
                 <li>Convention centers generally have a range of nearby hotels enabling the IASA to
                   negotiate a lower room rate than otherwise.</li>
               </ul>
@@ -220,15 +226,16 @@
               </ul>
             </li>
           </ol>
-          <t>While a "one-roof" venue is preferred, sometimes the IASA needs to work with convention
-            centers in order to meet in cities that do not have suitable "one-roof" venues. If it
-            did not take this approach then many cities and potentially some countries would be
-            practically excluded as meeting venues.</t>
+          <t>While a "one-roof" venue is preferred, there are a limited number of hotels (and
+            therefore cities) with large enough meeting space and sufficient rooms to accommodate
+            us. To meet in cities that do not have suitable "one-roof" venues, the IASA needs to
+            work with convention centers. If it did not take this approach then many cities and
+            potentially some countries would be practically excluded as meeting venues.</t>
           <t>It should also be noted that a "one-roof" venue shifts the costs of the meeting more
             onto participants than a convention center, where the costs are shifted more towards the
             IASA.</t>
           <t>Despite "one-roof" being expressed as a preference in <xref target="RFC8718"/> there
-            are many in the community who consider it is the only way to meet the requirement for
+            are some in the community who consider it as the only way to meet the requirement for
             "close proximity".</t>
         </section>
         <section>
@@ -238,7 +245,7 @@
           <t indent="1">Where the meeting space is a convention center or other facility without a
             directly attached hotel, the “close proximity” requirement for the IETF Hotels should be
             taken to mean that the time it takes to walk from the IETF Hotels to the meeting space
-            should be no longer then ten minutes, and a safe walk, including early in the morning
+            should be no longer than ten minutes, and a safe walk, including early in the morning
             and late at night.</t>
           <t>It should be noted that <xref target="RFC8718" sectionFormat="of" section="3.2.2"/>
             already uses a walkability test of 5-10 minutes for a similar purpose.</t>
@@ -252,23 +259,23 @@
             criterion:</t>
           <blockquote><ul>
               <li>The guest rooms at the IETF Hotels are sufficient in number to house one-third or
-                more of projected meeting attendees.</li>
+                more of the projected meeting attendees.</li>
             </ul></blockquote>
         </section>
         <section>
           <name>Discussion</name>
-          <t>COVID driven cancellations and lockdowns have badly affected the hospitality industry
+          <t>COVID-driven cancellations and lockdowns have badly affected the hospitality industry
             overall. Hotels and convention centers are now much more cautious about the terms of
-            their bookings and much less willing to invest in order to secure a booking, as they aim
-            to protect themselves from any similar sudden loss of income. For example, many hotels
-            are now requiring payment in full in advance for guest room blocks from conference
+            their bookings and much less willing to invest to secure a booking, as they aim to
+            protect themselves from any similar sudden loss of income. For example, many hotels are
+            now requiring payment in full in advance for guest room blocks from conference
             organizers.</t>
           <t>Where the IASA can get a large room block, it is finding that hotels are less willing
             to provide good discounts and so room pricing is not always on a par with other nearby
             hotels, with a smaller number of available rooms.</t>
           <t>Then there is the impact of the now ubiquitous offering of short-term apartment rental
             sites. These sites are significant competitors to hotels for traveler accommodation both
-            on price and availability.</t>
+            in price and availability.</t>
           <t>The net result is that the IASA is reserving more hotel rooms than are being used,
             which exposes it to unnecessary risk as they are required to financially guarantee
             certain levels of occupancy, and leads to wasted effort.</t>
@@ -285,7 +292,7 @@
         <name>Overflow Hotels</name>
         <section>
           <name>Current Policy</name>
-          <t><xref target="RFC8718" section="1"/>defines "Overflow Hotels" as follows:</t>
+          <t><xref target="RFC8718" section="1"/> defines "Overflow Hotels" as follows:</t>
           <blockquote><t>One or more hotels, usually in close proximity to the Facility, where the
               IASA has negotiated a group room rate for the purposes of the meeting.
             </t></blockquote>
@@ -315,7 +322,7 @@
         <section>
           <name>Current Policy</name>
           <t><xref target="RFC8718" section="3.2.2"/> and <xref target="RFC8718"
-              sectionFormat="bare" section="3.2.4"/>include the following requirements as important
+              sectionFormat="bare" section="3.2.4"/> include the following requirements as important
             criteria:</t>
           <blockquote><ul>
               <li>There are sufficient places (e.g., a mix of hallways, bars, meeting rooms, and
@@ -335,7 +342,7 @@
             a printer and a staffed helpdesk.</t>
         </section>
         <section>
-          <name>Discusson</name>
+          <name>Discussion</name>
           <t>Both the Lounge and the Terminal Room are regularly but lightly used, far below
             capacity. The reason for this is explained in the feedback to post-meeting surveys: most
             participants want an immediately accessible ad-hoc meeting space, which is best provided
@@ -401,16 +408,16 @@
         <name>Resolution: Update to RFC 8178</name>
         <t>To address this, <xref target="RFC8718" section="2.1"/> is updated to include the
           following as part of the core value relating to Internet Access:</t>
-        <t indent="1">Neither the Facility network or the IETF Hotels network, nor it's upstream
-          providers, may impose technical constraints that affect the ability of meeting attendees
-          (whether remote or onsite) to participate in the meeting or in the use or development of
-          Internet protocols. That means that some filtering (e.g. for DoS protection, or locally
-          mandated blocking of access to known CSAM sites) may be acceptable, but that broad,
-          non-transparent filtering (e.g. port blocking or extensive government censorship of VPNs,
-          web sites or email providers) are not acceptable. Where any filtering is unavoidable, or
-          recommended by the IETF meeting NOC, the mechanisms used should be openly described as
-          soon as is practical (e.g. before the meeting if local mandates are imposed, or during a
-          meeting if in response to some attack/events)</t>
+        <t indent="1">Neither the Facility network, the IETF Hotels network, nor any upstream
+          providers may impose technical constraints that affect the ability of meeting attendees
+          (whether remote or onsite) to participate in the meeting or development of Internet
+          protocols. That means that some filtering (e.g. for DoS protection, or locally mandated
+          blocking of access to known CSAM sites) may be acceptable, but that broad, non-transparent
+          filtering (e.g. port blocking or extensive government censorship of VPNs, web sites or
+          email providers) are not acceptable. Where any filtering is unavoidable, or recommended by
+          the IETF meeting NOC, the mechanisms used should be openly described as soon as is
+          practical (e.g. before the meeting if local mandates are imposed, or during a meeting if
+          in response to some attack/events).</t>
       </section>
     </section>
 
