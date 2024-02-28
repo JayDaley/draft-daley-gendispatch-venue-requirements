@@ -9,12 +9,12 @@
 ]>
 
 <rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="bcp"
-  docName="draft-daley-gendispatch-venue-requirements-01" ipr="trust200902" obsoletes="8719"
+  docName="draft-daley-gendispatch-venue-requirements-02" ipr="trust200902" obsoletes="8719"
   updates="8718" submissionType="IETF" xml:lang="en" version="3">
 
   <front>
     <title>IETF Meeting Venue Requirements Review</title>
-    <seriesInfo name="Internet-Draft" value="draft-daley-gendispatch-venue-requirements-01"/>
+    <seriesInfo name="Internet-Draft" value="draft-daley-gendispatch-venue-requirements-02"/>
 
     <author fullname="Jay Daley" initials="J." surname="Daley" role="editor">
       <organization abbrev="IETF Administration LLC">IETF Administration LLC</organization>
@@ -44,7 +44,7 @@
       </address>
     </author>
 
-    <date year="2023"/>
+    <date year="2024"/>
 
     <area>General</area>
     <workgroup>Internet Engineering Task Force</workgroup>
@@ -83,8 +83,8 @@
     <section>
       <name>Summary of changes to <xref target="RFC8718"/> and <xref target="RFC8719"/>:</name>
       <ol>
-        <li>Replaces <xref target="RFC8719"/> with a new Meeting (Rotation) Policy as set out in
-          this document.</li>
+        <li>Updates the Meeting (Rotation) Policy of <xref target="RFC8719"/> with a new process for
+          the selection of exploratory meetings.</li>
         <li>Clarifies the interpretation of "close proximity" as used in <xref target="RFC8718"
           />.</li>
         <li>Updates the room block requirement of <xref target="RFC8718"/> from “one-third of the
@@ -95,13 +95,11 @@
           at its own discretion.</li>
         <li>Updates various parts of <xref target="RFC8718"/> that specify ad-hoc space to better
           match the community requirements as expressed in post-meeting surveys.</li>
-        <li>Clarifies the interpretation of 'unfiltered' regarding Internet access to cover the
-          current environment.</li>
       </ol>
     </section>
 
     <section>
-      <name>The Meeting (Rotation) Policy</name>
+      <name>The Meeting (Rotation) Policy and Exploratory Meetings</name>
       <section>
         <name>Current Policy</name>
         <t>The current meeting rotation policy is set as the "1-1-1-*" policy in <xref
@@ -115,42 +113,32 @@
         <blockquote><t>[...] the 1-1-1-* meeting policy is a slightly modified version of the
             aforementioned 1-1-1 meeting policy that allows for additional flexibility in the form
             of an exploratory meeting (denoted with an "*").</t></blockquote>
-        <t><xref target="RFC8719"/> further sets out the process for agreeing on an exploratory
-          meeting, which includes the requirement for a participant to nominate the city, the
-          community to discuss it and the IETF Chair to determine if there is consensus for the city
-          to be considered suitable.</t>
+        <t><xref target="RFC8719" section="4"/> further sets out the process for agreeing on an
+          exploratory meeting, which includes the requirement for a participant to nominate the
+          city, the community to discuss it and the IETF Chair to determine if there is consensus
+          for the city to be considered suitable.</t>
       </section>
       <section>
         <name>Discussion</name>
-        <t>The view of the community appears to have shifted since RFC 8719 was written, towards a
-          less rigid policy for IETF meeting rotation, with the key goal of avoiding excessive
-          geographic concentration, and with greater discretion being given to the IASA. This is
-          partly because, since 2020, the IASA has established two practices to ensure community
-          input into the choice of meeting venues:</t>
-        <ol>
-          <li>The IASA consults with the IESG when there is any concern that the likely number or
-            makeup of onsite participants is not sufficient for a viable IETF meeting at a
-            particular venue.</li>
-          <li>The IASA publishes a formal assessment of proposed venues (cities) as part of its
-            process of seeking community feedback.</li>
-        </ol>
+        <t>Community consensus is a very high bar, much higher than is required for a meeting in
+          Asia, Europe or North America. For those ordinary meetings, the IASA considers community
+          feedback but is ultimately the decision maker and can choose to go ahead with a meeting in
+          a particular city even if there is no community consensus on the suitability of that city
+          for an IETF meeting. Furthermore, it has been demonstrated by the low attendance at some
+          exploratory meetings that community consensus is orthogonal to the viability of meeting in
+          a particular city.</t>
       </section>
       <section>
-        <name>Resolution: Replacement of the IETF Meeting Policy</name>
-        <t>This document obsoletes <xref target="RFC8719"/> and sets the IETF Meeting Policy as
+        <name>Resolution: Replacement of the process for an exploratory meeting</name>
+        <t>This document replaces <xref target="RFC8719" section="4"/> and sets the new process as
           follows:</t>
-        <t>The IETF meets onsite three times a year. The core regions for IETF meetings are North
-          America, Europe and Asia, and the non-core regions are Africa, the Caribbean, Central
-          America, the Middle East, Oceania and South America. For the avoidance of doubt, North
-          America includes the US, Canada and Mexico, and meetings cannot be held in Antarctica.
-          These meetings rotate geographically at the discretion of the IASA with the following
-          restrictions:</t>
-        <ul>
-          <li>No two adjacent meetings in the same region.</li>
-          <li>No more than one meeting per region in a calendar year.</li>
-          <li>No more than one meeting in a non-core region in a calendar year.</li>
-          <li>No more than one meeting per country in any two adjacent calendar years.</li>
-        </ul>
+        <t>Exploratory meetings MAY be scheduled by the IASA following its normal processes,
+          including those for assessing the suitability of a particular city, consulting with the
+          IETF community and deferring to the IESG if there is any concern that the likely number or
+          makeup of onsite participants is insufficient for a viable IETF meeting.</t>
+        <t>The IASA MUST ensure that the frequency of exploratory meetings is such that it does not
+          redefine the concept of 'exploratory' and it MUST ensure that the distribution of
+          exploratory meetings does not disproportionately impact meetings in the 1-1-1 regions.</t>
       </section>
     </section>
 
@@ -335,11 +323,9 @@
                 be at an open bar or casual restaurant. Preferably the lounge area is centrally
                 located, permitting easy access to participants. </li>
             </ul></blockquote>
-          <t>While not a formal requirement, a Terminal Room has been a long-standing feature of
-            IETF meetings. It is described in the The Tao of the IETF (<eref
-              target="https://www.ietf.org/about/participate/tao/"/>) as a dedicated room with
+          <t>While not a formal requirement, a Terminal Room, described as a dedicated room with
             extended opening hours beyond the normal hours of IETF meetings, Ethernet connectivity,
-            a printer and a staffed helpdesk.</t>
+            a printer and a staffed helpdesk, has been a long-standing feature of IETF meetings.</t>
         </section>
         <section>
           <name>Discussion</name>
@@ -367,57 +353,6 @@
                 work online on their own devices.</t></li>
           </ol>
         </section>
-      </section>
-    </section>
-
-    <section>
-      <name>Unfiltered Internet Access</name>
-      <section>
-        <name>Current Policy</name>
-        <t><xref target="RFC8718"/> provides the following mandatory criteria:</t>
-        <blockquote><ul>
-            <li>It MUST be possible to provision Internet Access to the Facility and IETF
-              Hotels</li>
-          </ul></blockquote>
-        <t>This is further defined as "unfiltered" as follows:</t>
-        <blockquote> As an organization, we write specifications for the Internet, and we use it
-          heavily. Meeting attendees need unfiltered access to the general Internet and their
-          corporate networks. "Unfiltered access", in this case, means that all forms of
-          communication are allowed. This includes, but is not limited to, access to corporate
-          networks via encrypted VPNs from the meeting Facility and Hotels, including Overflow
-          Hotels. We also need open network access available at high enough data rates, at the
-          meeting Facility, to support our work, which includes support of remote participation.
-          Beyond this, we are the first users of our own technology. Any filtering may cause a
-          problem with that technology development. In some cases, local laws may require some
-          filtering. We seek to avoid such locales without reducing the pool of cities to an
-          unacceptable level by stating a number of criteria below, one mandatory and others
-          important, to allow for the case where local laws may require filtering in some
-          circumstances.</blockquote>
-      </section>
-      <section>
-        <name>Discussion</name>
-        <t>There is a wide spectrum of activities that may be considered "filtering", and not all of
-          those are likely to be unacceptable to IETF participants. For example, some countries
-          operate filters that are minimally invasive by redirecting and filtering traffic to a
-          small number of high-risk sites and only for one specific illegal activity <eref
-            target="https://en.wikipedia.org/wiki/Internet_censorship_in_New_Zealand"/>. Discussions
-          with the community indicate that a meeting in such a country would not be considered a
-          breach of the meeting criterion above.</t>
-      </section>
-      <section>
-        <name>Resolution: Update to RFC 8178</name>
-        <t>To address this, <xref target="RFC8718" section="2.1"/> is updated to include the
-          following as part of the core value relating to Internet Access:</t>
-        <t indent="1">Neither the Facility network, the IETF Hotels network, nor any upstream
-          providers may impose technical constraints that affect the ability of meeting attendees
-          (whether remote or onsite) to participate in the meeting or development of Internet
-          protocols. That means that some filtering (e.g. for DoS protection, or locally mandated
-          blocking of access to known CSAM sites) may be acceptable, but that broad, non-transparent
-          filtering (e.g. port blocking or extensive government censorship of VPNs, web sites or
-          email providers) are not acceptable. Where any filtering is unavoidable, or recommended by
-          the IETF meeting NOC, the mechanisms used should be openly described as soon as is
-          practical (e.g. before the meeting if local mandates are imposed, or during a meeting if
-          in response to some attack/events).</t>
       </section>
     </section>
 
@@ -449,8 +384,7 @@
     <section anchor="Contributors" numbered="false">
       <name>Contributors</name>
       <t>Thanks to all of the contributors: Laura Nugent, Stephanie McCammon, Alexa Morris, Greg
-        Wood, Lars Eggert and Jason Livingood. Special thanks to Stephen Farrell for the text
-        updating relating to Internet filtering.</t>
+        Wood, Lars Eggert and Jason Livingood.</t>
     </section>
 
   </back>
