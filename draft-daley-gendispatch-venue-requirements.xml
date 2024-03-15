@@ -84,6 +84,8 @@
       <name>Summary of changes to <xref target="RFC8718"/> and <xref target="RFC8719"/>:</name>
       <ol>
         <li>Updates the Meeting (Rotation) Policy of <xref target="RFC8719"/> with a new process for
+          that decouples rotations from the classification of exploratory meeting locations.</li>
+        <li>Updates the Meeting (Rotation) Policy of <xref target="RFC8719"/> with a new process for
           the selection of exploratory meetings.</li>
         <li>Clarifies the interpretation of "close proximity" as used in <xref target="RFC8718"
           />.</li>
@@ -120,6 +122,10 @@
       </section>
       <section>
         <name>Discussion</name>
+        <t>There are locations in Asia, Europe and North America where travel for many regular
+          participants maybe more difficult than usual, and there are locations outside of Asia,
+          Europe and North America that could host an IETF meeting without significant additional
+          burden on regular in person attendees.</t>
         <t>Community consensus is a very high bar, much higher than is required for a meeting in
           Asia, Europe or North America. For those ordinary meetings, the IASA considers community
           feedback but is ultimately the decision maker and can choose to go ahead with a meeting in
@@ -129,16 +135,55 @@
           a particular city.</t>
       </section>
       <section>
+        <name>Resolution: Update of the rotation policy</name>
+        <t>This document replaces <xref target="RFC8719" section="2"/> and sets the new process as
+          follows:</t>
+        <subsection>
+          <t>Meetings should be roughly evenly distributed between
+            <ul spacing="normal">
+              <li> [UTC-10,UTC-2) Corresponding roughly to the Americas
+              </li>
+              <li> [UTC-2,UTC+6) Corresponding roughly to Europe, the Middle East, the Near East
+                and Africa</li>
+              <li> [UTC+6,UTC-10) Corresponding roughly to the Far East and Oceania
+              </li>
+            </ul>
+            where for example [UTC-10,UTC-2) means any location that is in between UTC-10
+            including UTC-10 and upto UTC-2 excluding UTC-2 itself. Thus Honolulu, Hawaii would be
+            considered to be within [UTC-10,UTC-2) but Fernando De Noronha would not.
+          </t>
+          <t>It is important to note that such rotation and any effects to distributing travel and
+            time zone pain should be considered from a long-term perspective. While a potential
+            cycle in an IETF year may be a meeting in North America in March, a meeting in Europe
+            in July, and a meeting in Eastern Asia in November, the 1-1-1^ policy does not imply
+            such a cycle, as long as the distribution over multiple years is roughly equal. There
+            are many reasons why meetings might be distributed differently in a given year. Meeting
+            locations in subsequent years should seek to rebalance the distribution, if possible.
+          </t>
+          <t>Similarly, when virtual meetings are held, their timing SHOULD rotate according to
+            the 1-1-1 policy so as not to over burden people in one region of the world.
+          </t>
+          <t>Previous policies have grouped all of Asia as part of one region. Due to the rather
+            large population in Asia, putting the Near East region with Europe, the Middle East
+            and Africa. The Americas have a lower population than either of the other two regions,
+            but at present produce significantly many RFCs that meeting participation is not a
+            concern.
+          </t>
+        </subsection>
+      </section>
+      <section>
         <name>Resolution: Replacement of the process for an exploratory meeting</name>
         <t>This document replaces <xref target="RFC8719" section="4"/> and sets the new process as
           follows:</t>
-        <t>Exploratory meetings MAY be scheduled by the IASA following its normal processes,
-          including those for assessing the suitability of a particular city, consulting with the
-          IETF community and deferring to the IESG if there is any concern that the likely number or
-          makeup of onsite participants is insufficient for a viable IETF meeting.</t>
-        <t>The IASA MUST ensure that the frequency of exploratory meetings is such that it does not
-          redefine the concept of 'exploratory' and it MUST ensure that the distribution of
-          exploratory meetings does not disproportionately impact meetings in the 1-1-1 regions.</t>
+        <t>Exploratory meetings are any meetings that are considered to require greater than normal
+          travel resources for many regular IETF participants. Exploratory meetings may be scheduled
+          by the IASA following its normal processes, including those for assessing the suitability
+          of a particular city, consulting with the IETF community and deferring to the IESG if there
+          is any concern that the likely number or makeup of onsite participants is insufficient for
+          a viable IETF meeting.</t>
+        <t>The IASA MUST ensure that exploratory meetings are scheduled within the 1-1-1 rotation
+          policy, and that on average, at most one out of every six meetings is an exploratory
+          meeting.</t>
       </section>
     </section>
 
