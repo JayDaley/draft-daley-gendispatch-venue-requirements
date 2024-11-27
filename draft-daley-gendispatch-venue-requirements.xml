@@ -9,12 +9,12 @@
 ]>
 
 <rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="bcp"
-  docName="draft-daley-gendispatch-venue-requirements-02" ipr="trust200902"
+  docName="draft-daley-gendispatch-venue-requirements-03" ipr="trust200902"
   updates="8718 8719" submissionType="IETF" xml:lang="en" version="3" consensus="true">
 
   <front>
     <title>IETF Meeting Venue Requirements Review</title>
-    <seriesInfo name="Internet-Draft" value="draft-daley-gendispatch-venue-requirements-02"/>
+    <seriesInfo name="Internet-Draft" value="draft-daley-gendispatch-venue-requirements-03"/>
 
     <author fullname="Jay Daley" initials="J." surname="Daley" role="editor">
       <organization abbrev="IETF Administration LLC">IETF Administration LLC</organization>
@@ -132,12 +132,11 @@
         <name>Resolution: Replacement of the process for an exploratory meeting</name>
         <t>This document replaces <xref target="RFC8719" section="4"/> and sets the new process as
           follows:</t>
-        <t>Exploratory meetings MAY be scheduled by the IASA following its normal processes,
+        <t>Exploratory meetings may be scheduled by the IASA following its normal processes,
           including those for assessing the suitability of a particular city, consulting with the
-          IETF community and deferring to the IESG if there is any concern that the likely number or
-          makeup of onsite participants is insufficient for a viable IETF meeting.</t>
-        <t>The IASA MUST ensure that the frequency of exploratory meetings is such that it does not
-          redefine the concept of 'exploratory' and it MUST ensure that the distribution of
+          IETF community and deferring to the IESG if there is any concern that the core objective from <xref target="RFC8718"/> of 'why we meet’ might not be met.</t>
+        <t>The IASA should ensure that the frequency of exploratory meetings is such that it does not
+          redefine the concept of 'exploratory' and that the distribution of
           exploratory meetings does not disproportionately impact meetings in the 1-1-1 regions.</t>
       </section>
     </section>
@@ -173,10 +172,9 @@
               <t>The advantages of this configuration are:</t>
               <ul>
                 <li>With a large enough room block, the meeting space is generally free.</li>
-                <li>For a core group of IETF participants (and staff) that normally stay in the IETF
-                  hotel, there is a strong sense of community.</li>
+                <li>For those IETF participants (and staff) that normally stay in the IETF hotel, there is a strong sense of community.</li>
                 <li>It is usually easier and more flexible to work with a single point of contact
-                  instead of several (convention centers with separate contacts for AV, F&amp;B, and
+                  instead of several (convention centers with separate contacts for Audio/Visual services, Food/Beverages, and
                   space).</li>
                 <li>It can be much cheaper for the IASA than working with a separate convention
                   center.</li>
@@ -208,7 +206,7 @@
                 <li>Convention centers are much more difficult to negotiate with and less
                   flexible.</li>
                 <li>The IASA has to pay for the meeting space.</li>
-                <li>The sense of community for a core group of IETF participants is diminished.</li>
+                <li>For those IETF participants (and staff) that normally stay in the IETF hotel, the sense of community is diminished.</li>
                 <li>Choice of a main hotel and negotiation of the network for that hotel are more
                   complicated.</li>
               </ul>
